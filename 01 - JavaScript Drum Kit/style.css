@@ -1,12 +1,22 @@
+/*Main Stylesheet*/
+
+/*Tag Styles*/
 html {
   font-size: 10px;
 }
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+/*Class Styles*/
 .keys {
   display: flex;
   flex: 1;
@@ -29,14 +39,15 @@ body {
   text-shadow: 0 0 .5rem black;
 }
 
-kbd {
-  display: block;
-  font-size: 4rem;
-}
-
 .sound {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
 }
