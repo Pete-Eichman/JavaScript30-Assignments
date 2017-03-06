@@ -1,2 +1,2 @@
 # JavaScript30-Assignments
-My assignments from the 30-day Javascript course by Javascript30.
+Assignments from a 30-day Javascript course, JavaScript30 by Wesbos.
